@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #d3d3d3;
+}
+
+p{    
+    line-height: 2;
+}
+
+hr{
+    border: dotted lightgray 12px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Questrial', sans-serif;
+    font-size: 5rem;
+    color: #191970;;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #191970;
+    padding-bottom: 10px;
+}
+
+h3{
+    color: #191970;
+}
+
+.top-container{
+    position: relative;
+    padding-top: 100px;
+    background-color: #d0effa;
+}
+
+.top-container > h2{
+    font-weight: normal;
+}
+
+.middle-container{
+    padding: 100px 0;
+}
+
+.bottom-container{
+    background-color: #3e6a79;
+    padding: 50px 0 20px;
+    margin-top: 50px;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.contactMessage{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.footer-link{
+    padding: 75px 20px 0 0;
+    margin: 10px 20px;
+    color: white;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.web-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.python-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.profile-img{
+    margin: 20px auto 0;
+    width: 15%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.btn {
+    background-color: #3e6a79;
+    border-radius: 8px;
+    color: #ffffff;
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.btn:hover{
+    background: #d0effa;
+    color: #191970;
+}
+
+.rodapé{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0 0;
+}
